@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Azure Blob Storage - Lista de todos os blobs em todos os containers</title>
+</head>
+
+<body>
+    <h1>Azure Blob Storage - Lista de todos os blobs em todos os containers</h1>
+    <p>Este script em Python utiliza a biblioteca azure.storage.blob para se conectar ao Azure Blob Storage e listar
+        todos os blobs em todos os containers. Em seguida, cria um DataFrame pandas com informações de todos os blobs e
+        salva em um arquivo xlsx usando o openpyxl engine.</p>
+
+    <h2>Como usar</h2>
+    <ol>
+        <li>Certifique-se de ter a biblioteca azure.storage.blob instalada. Caso não tenha, instale utilizando o comando
+            <code>pip install azure-storage-blob</code>.</li>
+        <li>Adicione sua connection string em <code>connection_string</code>.</li>
+        <li>Defina o diretório de saída em <code>output_dir</code> e o nome do arquivo em <code>output_file_name</code>.
+        </li>
+        <li>Execute o script.</li>
+    </ol>
+
+    <h2>Notas</h2>
+    <ul>
+        <li>Certifique-se de ter permissões para listar os containers e blobs no Azure Blob Storage.</li>
+        <li>Este script pode levar algum tempo para ser executado, dependendo da quantidade de blobs e containers.</li>
+    </ul>
+</body>
+
+</html>
